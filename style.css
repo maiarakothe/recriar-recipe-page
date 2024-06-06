@@ -144,3 +144,32 @@ td.cor {
 footer {
     text-align: center;
 }
+
+@media screen and (max-width: 600px){
+    main {
+        margin: 0;
+        border-radius: 0px;
+        width: 520px;
+        height: 100%;
+        padding: 0;
+        
+    }
+
+    img {
+        width: 520px;
+        height: 200px;
+        border-radius: 0;
+    }
+    
+    div#preparação {
+        margin: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+    
+    caption {
+        white-space: normal; 
+    }
+}
